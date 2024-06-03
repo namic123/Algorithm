@@ -5,6 +5,10 @@ public class Algorithm {
         int[] exampleArray = {64, 34, 25, 12, 22, 11, 90};
         SortAlgorithm sortAlgorithm = new SortAlgorithm();
 
+        // 선택 정렬
+        // 가장 작은(또는 가장 큰)요소를 선택하여 앞쪽부터 순서대로 정렬
+        printArray(sortAlgorithm.selectionSort(exampleArray));
+
         // 버블 정렬
         // 왼쪽은 큰거를 오른쪽으로 보냄. 오른쪽은 작은거를 왼쪽으로 보냄
         printArray(sortAlgorithm.bubbleSort(exampleArray, "left"));
@@ -18,6 +22,7 @@ public class Algorithm {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+        System.out.println();
         System.out.println();
     }
 }
