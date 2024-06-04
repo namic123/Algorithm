@@ -7,12 +7,16 @@ public class Algorithm {
 
         // 선택 정렬
         // 가장 작은(또는 가장 큰)요소를 선택하여 앞쪽부터 순서대로 정렬
-        printArray(sortAlgorithm.selectionSort(exampleArray));
+//        printArray(sortAlgorithm.selectionSort(exampleArray));
 
         // 버블 정렬
         // 왼쪽은 큰거를 오른쪽으로 보냄. 오른쪽은 작은거를 왼쪽으로 보냄
-        printArray(sortAlgorithm.bubbleSort(exampleArray, "left"));
+//        printArray(sortAlgorithm.bubbleSort(exampleArray, "left"));
 //        printArray(sortAlgorithm.bubbleSort(exampleArray, "right"));
+
+        // 삽입 정렬
+//        printArray(sortAlgorithm.insertionSort(exampleArray));
+          printArray(sortAlgorithm.shellSort(exampleArray));
     }
 
     // 배열 출력을 위한 함수
